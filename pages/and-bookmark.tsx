@@ -7,9 +7,10 @@ const BookMark: NextPage = () => {
   const firstRegDate = "2022-03-09";
   const lastUpdateDate = "2022-03-09";
   const email = "dryadsoft@gmail.com";
+
   return (
-    <div className="container bg-gray-200 flex flex-col justify-center m-auto text-lg px-4 sm:px-10">
-      <h1 className="text-2xl font-bold mx-auto my-4">개인정보처리방침</h1>
+    <div className="container flex flex-col justify-center px-4 m-auto text-lg bg-gray-200 sm:px-10">
+      <h1 className="mx-auto my-4 text-2xl font-bold">개인정보처리방침</h1>
       <div className="mb-2">
         {componayName}은(는) {appName} 앱을(를) 무료로 사용할 수 있도록
         만들었습니다.
@@ -66,7 +67,7 @@ const BookMark: NextPage = () => {
         <br />
         This app is currently only available in the Korea.
       </Description>
-      <Description title="이 개인 정보 보호 정책의 변경">
+      <Description title="개인 정보 보호 정책의 변경">
         개인 정보 보호 정책은 수시로 업데이트 될 수 있습니다. 따라서 이 페이지를
         정기적으로 검토하여 변경 사항을 확인하는 것이 좋습니다. 이 페이지에
         새로운 개인 정보 취급 방침을 게시함으로써 변경 사항을 알려 드리겠습니다.
@@ -80,7 +81,7 @@ const BookMark: NextPage = () => {
         개인 정보 보호 정책에 관한 질문이나 제안 사항이 있으시면 언제든지
         저희에게 연락하십시오.
         <br />
-        이메일 주소 : {email}
+        이메일 : {email}
       </Description>
     </div>
   );

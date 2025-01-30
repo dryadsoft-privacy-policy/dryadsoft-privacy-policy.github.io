@@ -2,6 +2,7 @@ import React from "react";
 
 interface IDescriptionProps {
   title: string;
+  children: any;
 }
 const Description: React.FC<IDescriptionProps> = ({ children, title }) => {
   return (
